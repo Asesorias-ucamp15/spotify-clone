@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Spotify Clon</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="spotify-nav">
+        <li>
+          <img src="/spotify/img/spotify.webp" alt="" class="spotify-nav-img">
+        </li>
+      </ul>
+      <div class="spotify-nav-links">
+        <div class="spotify-nav-links-premium">Premium</div>
+        <div class="spotify-nav-links-help">Ayuda</div>
+        <div class="spotify-nav-links-download">Descargar</div>
+        <div class="spotify-nav-links-divider">|</div>
+        <div class="spotify-nav-links-profile">
+          <img src="/spotify/img/icon.webp" alt="" class="spotify-nav-links-profil-img">
+          <p class="spotify-nav-links-profile-content">
+            Mi perfil
+          </p> 
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--! la diferencia entre div y section es que un section puede contener divs pero no es correcto que un div contenga sections -->
+  <!-- <section>
+    <div class="one">
+      1
+    </div>
+    <div class="two">
+      2
+    </div>
+  </section> -->
+  <main>
+    <section class="spotify-download">
+      <div class="spotify-download-content">
+        <img class="spotify-download-content-img" src="/spotify/img/computer.webp" alt="">
+      </div>
+      <h1 class="spotify-download-content-title">Descarga la aplicación de Spotify</h1>
+      <p class="spotify-download-content-description">Reproduce millones de canciones y ...</p>
+      <button class="spotify-download-content-button">Descargar</button>
+      <!--? si creamos un div con el . y un texto nos creará un div con la clase del texto que hayamos escrito lo mismo sucederá con el # pero en vez de ser una clase será un id -->
+      <!-- .nav <div class="nav"></div>
+      #holi <div id="holi"></div> -->
+    </section>
+  </main>
+  <footer class="spotify-footer">
+    <section >
+      <img src="/spotify/img/spotify.webp" alt="" class="spotify-nav-img">
+    </section>
+    <section class="spotify-footer-links-list">
+      <label for="" class="spotify-footer-label">COMPAÑIA</label>
+      <ul>
+        <li class="spotify-footer-list">cualquier</li>
+        <li class="spotify-footer-list">cualquier</li>
+        <li class="spotify-footer-list">cosa</li>
+        <li class="spotify-footer-list">:P</li>
+      </ul>
+    </section>
+  </footer>
+</body>
+</html>

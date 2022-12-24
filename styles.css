@@ -1,0 +1,138 @@
+.spotify-nav{
+  width: 100%;
+  background-color: black;
+  height: 4rem;
+  color: #FFF;
+  list-style: none;
+  position: fixed;
+}
+
+.spotify-nav-img{
+  margin-top: 10px;
+  height: 2.5rem;
+}
+
+.spotify-nav-divider{
+  width: 300px;
+  background-color: azure;
+}
+
+.spotify-nav-links{
+  font-size: 25px;
+  position: relative;
+  left: 40rem;
+  color: #FFF;
+  height: 2rem;
+}
+
+.spotify-nav-links-premium{
+  position: relative;
+  right: 2rem;
+  bottom: -2rem;
+}
+
+.spotify-nav-links-help{
+  position: relative;
+  right: -5rem;
+  top: 0.4rem;
+}
+
+.spotify-nav-links-download{
+  position: relative;
+  top: -1.4rem;
+  right: -10rem;
+}
+
+.spotify-nav-links-divider{
+  font-size: 40px;
+  position: relative;
+  top: -3.8rem;
+  right: -18rem;
+}
+
+.spotify-nav-links-profile{
+  position: relative;
+  top: -7rem;
+  right: -20rem;
+}
+
+.spotify-nav-links-profile-content{
+  position: relative;
+  top: -3.8rem;
+  right: -3rem;
+}
+
+.spotify-nav-links-profil-img{
+  margin: 8px 8px 0 0;
+  height: 40px;
+}
+
+.spotify-download{
+  padding: 10rem 0 10rem 30rem;
+  background-color: rgb(25, 230, 140);
+}
+
+.spotify-download-content-title{
+  position: relative;
+  left: -12rem;
+  font-size: 50px;
+}
+
+.spotify-download-content-img{
+  position: relative;
+  left: 4rem;
+  width: 150px;
+}
+
+.spotify-download-content-img:hover{
+  transform: rotateX(40deg);
+}
+
+.spotify-download-content-button{
+  position: relative;
+  left: 4rem;
+  width: 150px;
+  height: 2.5rem;
+  background-color: #FFF;
+  border-radius: 20px;
+  border: none;
+}
+
+.spotify-footer{
+  height: 400px;
+  background-color: #000;
+  padding: 5rem;
+}
+
+.spotify-footer-links-list{
+  margin-left: 12rem;
+}
+
+.spotify-footer-label{
+  color: #eee;
+}
+
+.spotify-footer-list{
+  list-style: none;
+  font-size: 20px;
+  margin-bottom: 2rem;
+  color: #FFF;
+}
+
+/* .one{
+  width: 400px;
+  height: 400px;
+  background-color: aqua;
+  position: fixed;
+  z-index: 100;
+}
+
+.two{
+  width: 400px;
+  height: 400px;
+  background-color: #563453;
+  position: relative;
+  top: -15rem;
+  left: 2rem;
+  z-index: 10;
+} */
